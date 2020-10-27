@@ -27,9 +27,6 @@ def minEdgeBFS(edges, u, v, n):
 	visited[u] = True
 	while (not Q.empty()): 
 		x = Q.get()
-        if x == r:
-            return distance[v]
-
 		for i in range(len(edges[x])): 
 			if (visited[edges[x][i]]): 
 				continue
