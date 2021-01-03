@@ -1,4 +1,4 @@
-## Competitive Coding But from Manjaro
+## Competitive Coding
 ```python
 while(not dead):
      skillUp()
