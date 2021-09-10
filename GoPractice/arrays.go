@@ -10,4 +10,8 @@ func main() {
 	for i := 0; i < len(DeploymentOptions); i++ {
 		fmt.Printf("Index %d: Element %s \n", i+1, DeploymentOptions[i])
 	}
+
+	for i, element := range DeploymentOptions {
+		fmt.Printf("Index %d: Element %s \n", i+1, element)
+	}
 }
